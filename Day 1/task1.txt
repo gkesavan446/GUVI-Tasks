@@ -1,0 +1,29 @@
+Difference between HTTP/2 and HTTP/1.1
+
+What is HTTP?
+
+HTTP stands for hypertext transfer protocol & it is used in client-server communication.
+ By using HTTP user sends the request to the server & the server sends the response to the user.
+ There are several stages of development of HTTP but we will focus mainly on 
+ HTTP/1.1 which was created in 1997 & the new one is HTTP/2 which was created in 2015.
+
+HTTP 1.1 Protocol
+
+• It was released in 1997.
+• It uses text based commands for HTTP requests.
+• It added many performance enhancements e.g. caching, request pipelining, keepalive connections, transfer
+ encoding, byte range requests etc.
+• It can load one requests at a time. Hence one request per one TCP connection is possible.
+
+HTTP 2 Protocol
+
+• It was released in Feb. 2015 by IERF.
+• It is binary and not textual.
+• It is fully multiplexed.
+• It interleaves multiple requests/responses in parallel without blocking on anyone.
+• It uses single TCP connection to deliver multiple requests/responses (in parallel).
+• It uses header compression in order to reduce overhead.
+• It allows servers to "push" responses into client caches proactively.
+• It removes unnecessary HTTP/1.x work-arounds e.g. Image sprites, domain sharing etc.
+• It is less error prone than HTTP/1.
+
