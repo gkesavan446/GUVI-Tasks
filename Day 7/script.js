@@ -12,8 +12,8 @@ console.log(res1);
 var res2 =res.filter((ele)=>ele.population<200000);
 console.log(res2);
 
-// //name, capital, flag using forEach
-// res.forEach((flag)=> {console.log(flag["name"]);console.log(flag["capital"]);console.log(flag["flag"]);})
+//name, capital, flag using forEach
+res.forEach((flag)=> {console.log(flag["name"]);console.log(flag["capital"]);console.log(flag["flag"]);})
 
 //total population using reduce
 var res3 = res.reduce((a, b)=>a+b.population, 0);
