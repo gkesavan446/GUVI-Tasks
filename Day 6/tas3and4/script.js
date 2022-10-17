@@ -13,7 +13,6 @@ class Person{
 	var identity=new Person("Kesavan","23","Male");
 	console.log(identity.getage());
 
-
 //4.) write a class to calculate the uber price
 
 class uber{
@@ -27,4 +26,3 @@ class uber{
   }
   var result=new uber(10,8);
   console.log(result.uber());
-
