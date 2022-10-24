@@ -44,5 +44,4 @@ setTimeout(()=>{
         },1000)
     },1000)
 },1000)
-
 document.body.append(div);
