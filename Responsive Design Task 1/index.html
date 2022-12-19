@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Task 1 || Kesavan </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./index.css">
+</head>   
+    <body>
+        <div class="container">
+            <form>
+                <div class="name">
+                    <label for="name"><b style="font-size: 13px">Name</b><span class="star">*</span>
+                        <input type="text" name=" " id="name">
+                        <span style="font-size: small">First</span>
+                    </label> 
+                    <label>                        
+                        <input class="main1" type="text" name=" " id="name">
+                        <span class="main1" style="font-size: small">Last</span>
+                    </label>                
+                </div>
+                <div class="email">
+                    <label for="email"><b style="font-size: 13px">Email</b>
+                        <span class="star">*</span> </label><br />
+                    <input class="mailtext"type="email" name="email">                
+                </div>     
+    
+                <div class="rating">
+                    <p><b style="font-size: 13px">Your Experience</b><span class="star">*</span><br><span>⭐⭐⭐⭐⭐</span></p> 
+                    <p>Overall, how would you rate your experiance with us?</p>                
+                </div>  
+                <div class="table1">
+                    <table style="font-family: 'Times New Roman', Times, serif;border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <td class="tablehead">
+                                    How satisfied are you with<span class="star">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="rad">Very Unsatisfied</td>
+                                <td class="rad">Unsatisfied</td>
+                                <td class="rad">Normal</td>
+                                <td class="rad">Satisfied</td>
+                                <td class="rad">Very satisfied</td>
+                            </tr>
+        
+                            <tr class="tr">
+                                <td>Purchase</td>
+                                <td class="rad"><input type="radio" name="Purchase"></td>
+                                <td class="rad"><input type="radio" name="Purchase"></td>
+                                <td class="rad"><input type="radio" name="Purchase"></td>
+                                <td class="rad"><input type="radio" name="Purchase"></td>
+                                <td class="rad"><input type="radio" name="Purchase"></td>
+                            </tr>
+        
+                            <tr>
+                                <td>Service</td>
+                                <td class="rad"><input type="radio" name="service"></td>
+                                <td class="rad"><input type="radio" name="service"></td>
+                                <td class="rad"><input type="radio" name="service"></td>
+                                <td class="rad"><input type="radio" name="service"></td>
+                                <td class="rad"><input type="radio" name="service"></td>
+                            </tr>        
+                            <tr class="tr">
+                                <td>Company Overall</td>
+                                <td class="rad"><input type="radio" name="overall"></td>
+                                <td class="rad"><input type="radio" name="overall"></td>
+                                <td class="rad"><input type="radio" name="overall"></td>
+                                <td class="rad"><input type="radio" name="overall"></td>
+                                <td class="rad"><input type="radio" name="overall"></td>
+                            </tr>
+                        </tbody>
+                    </table>                
+                </div>
+                <div style= "margin-bottom: 20px"; class="table2">
+                    <table style="font-family: 'Times New Roman', Times, serif; border-collapse: collapse;">
+                        <tbody">
+                            <tr>
+                                <td class="tablehead">
+                                    How likely are you to<span class="star">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="rad">Very Unlikely</td>
+                                <td class="rad">Unlikely</td>
+                                <td class="rad">Normal</td>
+                                <td class="rad">Likely</td>
+                                <td class="rad">Very Likely</td>
+                            </tr>
+        
+                            <tr class="tr">
+                                <td>Buy from us again</td>
+                                <td class="rad"><input type="radio" name="buy"></td>
+                                <td class="rad"><input type="radio" name="buy"></td>
+                                <td class="rad"><input type="radio" name="buy"></td>
+                                <td class="rad"><input type="radio" name="buy"></td>
+                                <td class="rad"><input type="radio" name="buy"></td>
+                            </tr>
+        
+                            <tr>
+                                <td>Recommend our<br>product to others</td>
+                                <td class="rad"><input type="radio" name="product"></td>
+                                <td class="rad"><input type="radio" name="product"></td>
+                                <td class="rad"><input type="radio" name="product"></td>
+                                <td class="rad"><input type="radio" name="product"></td>
+                                <td class="rad"><input type="radio" name="product"></td>
+                            </tr>
+        
+                            <tr class="tr">
+                                <td>Recommend our<br>company to others</td>
+                                <td class="rad"><input type="radio" name="Recommend"></td>
+                                <td class="rad"><input type="radio" name="Recommend"></td>
+                                <td class="rad"><input type="radio" name="Recommend"></td>
+                                <td class="rad"><input type="radio" name="Recommend"></td>
+                                <td class="rad"><input type="radio" name="Recommend"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>      
+    
+                <p style="font-weight: bold">Additional comments or suggestions</p>
+                <textarea name="comment"></textarea>
+                <input type="button"  value="submit" onclick="foo()">                
+            </form>
+            <script>
+                function foo(){
+                    alert("data submitted successfully");                    
+                }
+            </script>
+            
+        </div>            
+    </body>    
+</html>
+
+
+
+
+    
+

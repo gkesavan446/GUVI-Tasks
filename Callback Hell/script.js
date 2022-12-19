@@ -3,6 +3,7 @@ div.setAttribute("class", "container");
 let span = document.getElementById("main")
 span.innerHTML = 10
 
+
 let num = 10;
 setTimeout(()=>{
     num =num - 1   
@@ -44,4 +45,5 @@ setTimeout(()=>{
         },1000)
     },1000)
 },1000)
+
 document.body.append(div);
